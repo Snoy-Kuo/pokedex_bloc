@@ -20,7 +20,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: AppTheme.theme,
-      title: 'Pokedex Provider',
+      title: 'Pokedex Bloc',
       routes: {
         AppRoutes.home: (context) => BlocProvider<PokeListBloc>(
               create: (context) =>
