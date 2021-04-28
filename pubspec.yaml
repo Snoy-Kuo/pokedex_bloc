@@ -28,6 +28,10 @@ dependencies:
   http: ^0.13.1
   cached_network_image: ^3.0.0
   sliding_up_panel: ^1.0.2
+  window_size:
+    git:
+      url: git://github.com/google/flutter-desktop-embedding.git
+      path: plugins/window_size
 
 dev_dependencies:
   flutter_test:
